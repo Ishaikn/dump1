@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Calendar_Popup {
+public class Calendar_Popuptest {
 @Test
 	public void Calendar() {
 

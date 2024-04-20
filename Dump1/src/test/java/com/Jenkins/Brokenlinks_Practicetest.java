@@ -13,7 +13,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class Brokenlinks_Practice {
+public class Brokenlinks_Practicetest {
 @Test
 public void broken() {
 		WebDriver driver = new ChromeDriver();

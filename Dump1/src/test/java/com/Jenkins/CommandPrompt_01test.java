@@ -2,7 +2,7 @@ package com.Jenkins;
 
 import org.testng.annotations.Test;
 
-public class CommandPrompt_01 {
+public class CommandPrompt_01test {
 	@Test
 	public void testing() {
 		System.out.println("MVN Execution 01");
