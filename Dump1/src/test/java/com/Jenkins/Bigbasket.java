@@ -8,9 +8,12 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.Test;
 
 public class Bigbasket {
-	public static void main(String[] args) {
+	
+	@Test
+	public void big() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.bigbasket.com/ps/?q=apple&nc=as");
 		driver.manage().window().maximize();
